@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "ProductName": "Cherry đỏ",
+      "Price": "200003",
+      "From": "Bắc Giang1"
+    }
+  ],
+  "users": [],
+  "carts": []
+}

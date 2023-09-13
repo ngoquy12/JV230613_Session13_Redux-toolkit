@@ -1,0 +1,52 @@
+.q-modal-container {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q-modal-item {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 24px;
+  width: 400px;
+}
+
+.q-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.q-modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.fa-triangle-exclamation {
+  font-size: 30px;
+  color: orange;
+}
+
+.q-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.fa-xmark {
+  cursor: pointer;
+}
+
+.fa-xmark:hover {
+  color: #4b4949;
+}
